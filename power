@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(void) {
+  	int n,pow,MUL=1;
+  	scanf("%d%d",&n,&pow);
+ 	while(pow!=0)
+    {
+		MUL=n*MUL;
+      	pow--;
+    }
+  	printf("%d",MUL);
+	return 0;
+}
